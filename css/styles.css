@@ -1,0 +1,43 @@
+:root {
+    --primary-color: #ff0000;
+    --secondary-color: #ff0095;
+    --neutral-color: #ff00b3;
+    --neutral-dark: #4a5397;
+    --accent-color: #d4f2e3;
+}
+
+/* .container {
+    background-color: var(--neutral-color);
+} */
+
+h1, h2{
+    color: var(--primary-color);
+}
+
+h3 {
+    color: var(--secondary-color);
+}
+
+p {
+    color: var(--primary-color);
+}
+ 
+.circles {
+    width: 100px;
+    height: 100px;
+    background-color: var(--accent-color);
+    border-radius: 50%;
+}
+
+body {
+    font-family: 'Arima' sans-serif;
+    background: linear-gradient(to right, #d882d8, #dac5b6);
+}
+
+.navbar {
+    background: linear-gradient(to right, #ce6d8c, #dfb9df);
+}
+/* svg {
+    color: var(--accent-color);
+} */
+
