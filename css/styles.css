@@ -1,13 +1,14 @@
 :root {
-    --primary-color: #ff0000;
-    --secondary-color: #ff0095;
-    --neutral-color: #ff00b3;
+    --primary-color: #000000;
+    --secondary-color: #553c4a;
+    --neutral-color: #ff0000;
     --neutral-dark: #4a5397;
-    --accent-color: #d4f2e3;
+    --accent-color: #00fff2;
 }
 
-.container {
-    background-color: var(--neutral-color);
+.container-fluid {
+    background-color: pink;
+    padding: 10px;
 }
 
 h1, h2{
@@ -20,6 +21,7 @@ h3 {
 
 p {
     color: var(--primary-color);
+
 }
  
 .circles {
@@ -31,14 +33,16 @@ p {
 
 body {
     font-family: 'Arima' sans-serif;
-    background: linear-gradient(to right, #d882d8, #dac5b6);
+    background: linear-gradient(to right, #ffffff, #ffffff);
 }
 
 .navbar {
-    background: linear-gradient(to right, #ce6d8c, #dfb9df);
+    background: linear-gradient(to right, #ffffff, #ffffff);
     text-align: center;
-    padding-left: 250px;
-    justify-content: space-around;
+    
+    /* padding-left: 250px; */
+    /* justify-content: center; */
+    
 }
 
 .nav-item {
@@ -58,12 +62,31 @@ body {
 
 
 
-img {
+/* img {
     float: right;
     align-items: right;
     flex-wrap: wrap;
-}
+} */
 
 .landing-image {
     background-image: url("../img/image.png");
+    background-size: cover;
+    border-radius: 25px;
+}
+.logo {
+    align-items: left;
+    
+}
+
+
+.font {
+  font-family: "Enriqueta", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.test{
+    text-align: center;
+    background-color: rgb(239, 171, 249);
+
 }
