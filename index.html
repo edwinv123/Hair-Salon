@@ -22,7 +22,7 @@
 
 </head>
 
-<body class="font">
+<body class="font" id="">
   <nav class="navbar navbar-expand-lg ">
 
     <div class="container-fluid justify-content-center glow">
@@ -38,20 +38,20 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About us</a>
+            <a class="nav-link" href="#about-us">About us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link" href="#services">Services</a>
           </li>
-          <li class="nav-item ">
-            <a class="nav-link disabled" aria-disabled="true">Contact Us</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Us</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <div class="container-fluid">
+  <div class="container-fluid id=">
     <div class="row mt-5">
       <div class="col">
         <h1></h1>
@@ -74,7 +74,7 @@
     </div>
   </div>
 
-  <div class="container-fluid">
+  <div class="container-fluid" id="services">
     <div class="row">
       <div class="test glow">
         <h1>Services</h1>
@@ -109,7 +109,7 @@
             <br>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
-            <span class="fa fa-star"></span>
+            <span class="fa fa-star checked"></span>
             <span class="fa fa-star"></span>
             <span class="fa fa-star"></span>
           </div>
@@ -125,67 +125,58 @@
             <button type="button2">Buy now!</button>
             <br>
             <span class="fa fa-star checked"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
             <span class="fa fa-star"></span>
           </div>
         </div>
       </div>
 
-      
-      <div class="container-fluid">
+
+      <div class="container-fluid" id="contact">
         <div class="row mt-5">
           <div class="test glow">
-          <h1>
-            <br>Contact Us</h1>
+            <h1>
+              <br>Contact Us
+            </h1>
+          </div>
+          <div class="container" alt="container1">
+            <form action="/action_page.php">
+              <div class="row">
+                <div class="test glow">
+                  <h2 style="text-align:center">Contact Us through here or Social Media</h2>
+                </div>
+                <div class="vl">
+                  <span class="vl-innertext">or</span>
+                </div>
+
+                <div class="col">
+                  <a href="#" class="fb btn">
+                    <i class="fa fa-facebook fa-fw"></i> Our Facebook
+                  </a>
+                  <a href="#" class="twitter btn">
+                    <i class="fa fa-twitter fa-fw"></i> Our Twitter
+                  </a>
+                  <a href="#" class="google btn"><i class="fa fa-google fa-fw">
+                    </i> Our Page
+                  </a>
+                </div>
+
+                <div class="col">
+                  <div class="hide-md-lg">
+                    <p>Or sign in manually:</p>
+                  </div>
+
+                  <input type="text" name="username" placeholder="Email" required>
+                  <input type="password" name="password" placeholder="Message" required>
+                  <input type="submit" value="Login">
+                </div>
+
+              </div>
+            </form>
+          </div>
         </div>
-        <div class="container">
-  <form action="/action_page.php">
-    <div class="row">
-            <div class="test glow">
-      <h2 style="text-align:center">Login with Social Media or Manually</h2>
-      </div>
-      <div class="vl">
-        <span class="vl-innertext">or</span>
-      </div>
-
-      <div class="col">
-        <a href="#" class="fb btn">
-          <i class="fa fa-facebook fa-fw"></i> Login with Facebook
-         </a>
-        <a href="#" class="twitter btn">
-          <i class="fa fa-twitter fa-fw"></i> Login with Twitter
-        </a>
-        <a href="#" class="google btn"><i class="fa fa-google fa-fw">
-          </i> Login with Google+
-        </a>
-      </div>
-
-      <div class="col">
-        <div class="hide-md-lg">
-          <p>Or sign in manually:</p>
-        </div>
-
-        <input type="text" name="username" placeholder="Username" required>
-        <input type="password" name="password" placeholder="Password" required>
-        <input type="submit" value="Login">
-      </div>
-      
-    </div>
-  </form>
-</div>
-
-<div class="bottom-container">
-  <div class="row">
-    <div class="col">
-      <a href="#" style="color:white" class="btn">Sign up</a>
-    </div>
-    <div class="col">
-      <a href="#" style="color:white" class="btn">Forgot password?</a>
-    </div>
-  </div>
-</div>
       </div>
     </div>
   </div>
@@ -198,6 +189,8 @@
 </body>
 
 </html>
+
+
 <!-- #E85D75
 #C76D7E
 #9F8082
